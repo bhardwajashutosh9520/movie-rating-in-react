@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Greet from './component/greet'
+import Message from './component/message'
 import Form from './component/form'
-const a = 20;
-
+import Header from './component/header'
+import View from './component/view-rating'
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-
-      <Form />
+        <Form />
+        <View />
       </div>
       );
   }
